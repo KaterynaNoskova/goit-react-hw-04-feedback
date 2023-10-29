@@ -1,0 +1,12 @@
+.list{
+display: block;
+padding: 10px;
+}
+.titleList{
+font-size: 18px;
+}
+.result{
+font-size: 20px;
+font-style: italic;
+margin-left: 5px;
+}
