@@ -3,12 +3,12 @@ const FeedbackOptions = ({ onPositiveFeedback, options }) => (
   <div>
     {options.map(option => (
       <button
-        key={option.name}
+        key={option}
         className={css.button}
         type="button"
-        onClick={() => onPositiveFeedback(option.name)}
+        onClick={() => onPositiveFeedback(option)}
       >
-        {option.name}
+        {option}
       </button>
     ))}
   </div>
